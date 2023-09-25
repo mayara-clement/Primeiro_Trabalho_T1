@@ -1,69 +1,81 @@
-  body {
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
 
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.5;
-  }
-  
-  /* header */
-  h1 {
-    text-align: center;
-  }
-  
-  /* voltar */
-  nav {
-    text-align: center;
-    margin-top: 10px;
-    color: #007acc;
-  }
-  
-   /* formulário */
-  nav ul li a {
-    color: #007acc;
-    font-weight: bold;
-  }
-   
-  fieldset {
-    border: 1px solid #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  legend {
-    font-size: 20px;
-    color: #007acc;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  input[type="tel"],
-  input[type="date"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 15px;
-  }
-  
-  /* botão de envio */
-  input[type="submit"] {
-    background-color: #007acc;
-    color: #fff;
-    border-color: #fff ;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #00537e;
-  }
-  
+/* header */
+h1 {
+  text-align: center;
+  text-align: center;
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+/* voltar */
+nav {
+  text-align: center;
+  margin-top: 10px;
+  color: #007acc;
+}
+
+/* formulário */
+.back-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid #f0f0f0;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+legend {
+  font-size: 20px;
+  color: #007acc;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='tel'],
+input[type='date'],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* botão de envio */
+input[type='submit'] {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007acc;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #00537e;
+}
